@@ -1,6 +1,6 @@
 # Watermarker
 
-Lightweight PDF &amp; image watermarker for macOS, built using [SwiftUI](https://developer.apple.com/xcode/swiftui)
+Lightweight PDF &amp; image watermarker for macOS 10.15 and later, built using [SwiftUI](https://developer.apple.com/xcode/swiftui)
 
 ## Preview
 
@@ -25,6 +25,12 @@ git checkout dev
 ```
 
 You will then be able to open the `Watermarker.xcodeproj` project. Swift's package manager should automatically download [swift-collections.git](https://github.com/apple/swift-collections.git). Don't forget to change the team and signing certificate before building.
+
+## TODO
+
+* Allow setting an offset for the watermark
+* Allow tilling the watermark
+* Allow creating "profiles" to save watermark options
 
 ## Contributing
 
